@@ -33,7 +33,9 @@
 
     $ pip3 install instaloader
 
-    $ instaloader profile [profile ...]
+    $ instaloader profile <profile_username> --login havefunbiga
+
+    $ $ instaloader --post-filter="date_utc <= datetime(2024, 1, 24)" profile <profile_username> --login havefunbiga
 
 **Instaloader**
 
